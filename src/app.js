@@ -10,3 +10,6 @@ const winningCombos = [
     [2, 4, 6]
 ];
 let board, turn, winner, tie;
+const squareEls = document.querySelectorAll('.sqr');
+const messageEl = document.querySelector('#message');
+const resetBtnEl = document.querySelector('button');

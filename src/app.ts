@@ -11,3 +11,9 @@ const winningCombos: number[][] = [
 
 let board: number[], turn: number, winner: boolean, tie: boolean
 
+const squareEls = document.querySelectorAll<HTMLDivElement>('.sqr')
+
+const messageEl = document.querySelector<HTMLHeadingElement>('#message')
+
+const resetBtnEl = document.querySelector<HTMLButtonElement>('button')
+
